@@ -27,6 +27,7 @@ def format_row_data(row_data, column_info)
 end
 
 def create_rows(astroid_data, column_info)
+  #This variable rows is unneed
   rows = astroid_data.each { |astroid| format_row_data(astroid, column_info) }
 end
 
